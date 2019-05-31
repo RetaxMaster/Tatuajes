@@ -1,0 +1,69 @@
+.header{
+    width: 100vw;
+    height: 180px;
+    overflow: hidden;
+}
+
+.cabecera{
+    width: 100%;
+    
+    
+}
+.menu{
+    display:flex;
+    width: 100vw;
+    height:80px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    
+}
+
+h1{
+    display: inline-block;
+}
+
+.logo{
+    color:white;
+    font: Akzidenz-Grotesk BQ, sans-serif;
+    font-size: 38px;
+    margin-right:15px;
+    margin-left:9px;
+}
+.secciones{
+    color:white;
+    font: Avenir, sans-serif;
+    font-size: 23px;
+    padding:8px;
+    text-decoration: none;
+    
+}
+.secciones:hover{
+    color: #ff12ed;
+}
+.derecha{
+    justify-content: space-between;
+    margin-right:9px;
+}
+.secciones2{
+    color:#b1aeae;
+    font:Avenir,sans-serif;
+    font-size:16px;
+    padding:9px;
+    text-decoration: none;
+    
+}
+
+.secciones2:hover{
+    color:ghostwhite;
+}
+
+/* aquí empieza el contenido de la sección*/
+
+.noticias{
+    font-size: 80px;
+    padding:10px;
+    margin-left: 10px;
+    
+}

@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "AkzidenzGrotesk Bold";
+    src: url("../fuentes/AkzidenzGrotesk/AkzidenzGrotesk-Bold.otf");
+}
+
+@font-face {
+    font-family: "AkzidenzGrotesk Italic";
+    src: url("../fuentes/AkzidenzGrotesk/AkzidenzGrotesk-Italic.otf");
+}
+
+@font-face {
+    font-family: "AkzidenzGrotesk Light";
+    src: url("../fuentes/AkzidenzGrotesk/AkzidenzGrotesk-Light.otf");
+}
+
+@font-face {
+    font-family: "AkzidenzGrotesk Medium";
+    src: url("../fuentes/AkzidenzGrotesk/AkzidenzGrotesk-Medium.otf");
+}
+
+@font-face {
+    font-family: "AkzidenzGrotesk";
+    src: url("../fuentes/AkzidenzGrotesk/AkzidenzGrotesk-Regular.otf");
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url("../fuentes/Avenir/Avenir.ttc");
+}

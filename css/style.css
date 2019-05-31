@@ -1,0 +1,232 @@
+@import url("fonts.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+
+body {
+    font-family: "AkzidenzGrotesk";
+}
+
+header {
+    grid-area: hd;
+}
+
+footer {
+    grid-area: foo;
+}
+
+ul {
+    list-style: none;
+}
+
+a, a:hover {
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+/* Slider */
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.slider-container .visor {
+    display: inline-block;
+    width: 70%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slider-container .visor .image-container {
+    max-height: 100%;
+}
+
+.slider-container .arrow {
+    padding: 8px 30px;
+    font-size: 50px;
+    cursor: pointer;
+    background: #b7b7b7;
+    border-radius: 25px;
+    margin: 0 12px;
+}
+
+/* Botones */
+
+.button-container {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.button-container button {
+    border: none;
+    outline: none;
+    background: #808080;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 22px;
+}
+
+.button-container button:hover {
+    background: #969696;
+}
+
+/* Header */
+
+header .header-image {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+header .header-image .image-container {
+    display: inline-block;
+    margin-top: -311px;
+}
+
+/* Logo */
+
+h1 {
+    font-family: "Avenir";
+    font-weight: bold;
+    font-size: 37px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #ccc;
+}
+
+h1 a:hover {
+    color: #fff !important;
+}
+
+/* Menú de navegación */
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    color: #fff;
+    height: 70px;
+}
+
+header nav > div,
+header nav > div > ul {
+    display: flex;
+    align-items: center;
+}
+
+header nav > div > ul li {
+    font-size: 21px;
+    font-family: "AkzidenzGrotesk Bold";
+}
+
+header nav .right {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+header nav .right ul li {
+    font-size: 14px;
+    font-family: "AkzidenzGrotesk";
+}
+
+header nav .right ul li a {
+    color: #b1aeae !important;
+}
+
+header nav > div a {
+    padding: 20px;
+    color: #fff;
+}
+
+header nav > div a:hover {
+    color: #ff12ed;
+}
+
+header nav .right ul li a:hover {
+    color: #fff !important;
+}
+
+/* main */
+
+main h2 {
+    font-size: 3.5vw;
+}
+
+/* Artículos */
+
+article.notice {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+article.notice .image-container {
+    width: 100%;
+}
+
+article.notice .image-container img {
+    width: 100% !important;
+    height: 265px !important;
+}
+
+article.notice span {
+    padding: 5px 0;
+    font-size: 21px;
+    font-family: "Avenir";
+}
+
+/* Footer */
+
+footer {
+    background: #ccc;
+    font-size: 30px;
+}
+
+footer, footer a {
+    color: #808080;
+}
+
+footer > div,
+footer > div ul,
+footer > div ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > div ul li {
+    margin: 0 5px;
+}
+
+footer .enlaces {
+    padding-top: 20px;
+}
+
+footer .derechos {
+    padding-bottom: 20px;
+}

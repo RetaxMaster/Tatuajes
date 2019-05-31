@@ -1,0 +1,70 @@
+@import url("grid.css");
+@import url("style.css");
+
+/* Asignando grid areas */
+
+main {
+    grid-area: mn;
+}
+
+aside {
+    grid-area: asd;
+}
+
+.a11 {
+    grid-area: a11;
+}
+
+.a12 {
+    grid-area: a12;
+}
+
+footer {
+    grid-area: foo;
+}
+
+#articles {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: 1fr 1fr;
+    margin: 15px 0;
+}
+
+/* Estilos generales */
+
+article.notice {
+    border-bottom: 1px solid #000;
+}
+
+#articles article.notice:last-child,
+#articles article.notice:nth-child(7) {
+    border-bottom: none;
+}
+
+#articles article.notice span {
+    font-size: 13px;
+}
+
+#articles article.notice .image-container img {
+    height: 160px !important;
+}
+
+/* Publicidad */
+
+aside {
+    margin-top: 65px;
+}
+
+aside .container {
+    border: 1px solid #000;
+    padding: 20px;
+}
+
+aside h2 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+aside .image-container {
+    margin: 7px 0;
+}

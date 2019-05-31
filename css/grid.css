@@ -1,0 +1,39 @@
+.index {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, auto);
+    grid-template-areas: "hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd "
+                         ".   sld sld sld sld sld sld sld sld sld sld .  "
+                         ".   .   hr1 hr1 hr1 hr1 hr1 hr1 hr1 hr1 .   .  "
+                         ".   .   a11 a11 a11 a11 a12 a12 a12 a12 .   .  "
+                         ".   .   a21 a21 a21 a21 a22 a22 a22 a22 .   .  "
+                         ".   .   a31 a31 a31 a31 a32 a32 a32 a32 .   .  "
+                         ".   .   a41 a41 a41 a41 a42 a42 a42 a42 .   .  "
+                         ".   .   sus sus sus sus sus sus sus sus .   .  "
+                         ".   .   a51 a51 a51 a51 a52 a52 a52 a52 .   .  "
+                         ".   .   hr2 hr2 hr2 hr2 hr2 hr2 hr2 hr2 .   .  "
+                         "pow pow pow pow pow pow pow pow pow pow pow pow"
+                         "foo foo foo foo foo foo foo foo foo foo foo foo"
+}
+
+.noticias {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd "
+                         ".   .   mn  mn  mn  mn  mn  sld asd asd .   .  "
+                         ".   .   a11 a11 a11 a11 a12 a12 a12 a12 .   .  "
+                         "foo foo foo foo foo foo foo foo foo foo foo foo"
+}
+
+.artistas {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd "
+                         ".   mn  mn  mn  mn  mn  mn  mn  mn  mn  mn  .  "
+                         "foo foo foo foo foo foo foo foo foo foo foo foo"
+}

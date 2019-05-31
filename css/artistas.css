@@ -1,0 +1,26 @@
+@import url("grid.css");
+@import url("style.css");
+
+/* Asignación de espacios de la grid */
+
+main {
+    grid-area: mn;
+}
+
+/* Estilos generales */
+
+main h2 {
+    margin: 10px 0;
+}
+
+.slider-container .image-container {
+    flex-direction: column;
+}
+
+.slider-container .image-container p {
+    margin: 10px 0;
+}
+
+.slider-container .visor {
+    height: auto !important;
+}
