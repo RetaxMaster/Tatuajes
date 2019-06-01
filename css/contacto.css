@@ -1,0 +1,54 @@
+@import url("grid.css");
+@import url("style.css");
+
+/* Asignación de espacios de la grid */
+
+main {
+    grid-area: mn;
+}
+
+/* Estilos generales */
+
+main h2 {
+    margin: 10px 0;
+}
+
+main .container {
+    display: flex;
+}
+
+main .container>section {
+    width: 50%;
+    padding: 20px;
+}
+
+main .container section p {
+    font-size: 20px;
+}
+
+/* Formulario */
+
+main section.form-container > form {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: #b7b7b7;
+    padding: 20px;
+}
+
+.input-container {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.input-container label {
+    width: 100px;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.input-container input, 
+.input-container textarea,
+.input-container select {
+    width: 100%;
+}

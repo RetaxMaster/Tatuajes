@@ -1,0 +1,27 @@
+@import url("grid.css");
+@import url("style.css");
+
+/* Asignación de espacios de la grid */
+
+main {
+    grid-area: mn;
+}
+
+/* Estilos generales */
+
+main h2 {
+    margin: 10px 0;
+}
+
+main .container {
+    display: flex;
+}
+
+main .container > section {
+    width: 50%;
+    padding: 20px;
+}
+
+main .container section p {
+    font-size: 20px;
+}

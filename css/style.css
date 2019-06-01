@@ -20,6 +20,16 @@ footer {
     grid-area: foo;
 }
 
+input, select, textarea {
+    padding: 7px;
+}
+
+textarea {
+    min-height: 150px;
+    width: 100%;
+    resize: none;
+}
+
 ul {
     list-style: none;
 }

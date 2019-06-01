@@ -1,0 +1,72 @@
+@import url("grid.css");
+@import url("style.css");
+
+/* Asignación de espacios de la grid */
+
+h2 {
+
+}
+
+.slider {
+    grid-area: sld;
+}
+
+.gal {
+    grid-area: gal;
+}
+
+.hr1 {
+    grid-area: hr1;
+    border-bottom: 1px solid #000;
+}
+
+.a11 {
+    grid-area: a11;
+}
+
+.a12 {
+    grid-area: a12;
+}
+
+.a21 {
+    grid-area: a21;
+}
+
+.a22 {
+    grid-area: a22;
+}
+
+.a31 {
+    grid-area: a31;
+}
+
+.a32 {
+    grid-area: a32;
+}
+
+.a41 {
+    grid-area: a41;
+}
+
+.a42 {
+    grid-area: a42;
+}
+
+.a51 {
+    grid-area: a51;
+}
+
+.a52 {
+    grid-area: a52;
+}
+
+/* Estilos generales */
+
+.slider {
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+article.notice .image-container img {
+    height: 320px !important;
+}

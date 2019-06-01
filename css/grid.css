@@ -37,3 +37,40 @@
                          ".   mn  mn  mn  mn  mn  mn  mn  mn  mn  mn  .  "
                          "foo foo foo foo foo foo foo foo foo foo foo foo"
 }
+
+.galeria {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(10, auto);
+    grid-template-areas: "hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd "
+                         ".   .   gal gal gal gal gal gal gal gal .   .  "
+                         ".   sld sld sld sld sld sld sld sld sld sld .  "
+                         ".   .   hr1 hr1 hr1 hr1 hr1 hr1 hr1 hr1 .   .  "
+                         ".   .   a11 a11 a11 a11 a12 a12 a12 a12 .   .  "
+                         ".   .   a21 a21 a21 a21 a22 a22 a22 a22 .   .  "
+                         ".   .   a31 a31 a31 a31 a32 a32 a32 a32 .   .  "
+                         ".   .   a41 a41 a41 a41 a42 a42 a42 a42 .   .  "
+                         ".   .   a51 a51 a51 a51 a52 a52 a52 a52 .   .  "
+                         "foo foo foo foo foo foo foo foo foo foo foo foo"
+}
+
+.sobre {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd "
+                         ".   .   mn  mn  mn  mn  mn  mn  mn  mn  .   .  "
+                         "foo foo foo foo foo foo foo foo foo foo foo foo"
+}
+
+.contacto {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd "
+                         ".   .   mn  mn  mn  mn  mn  mn  mn  mn  .   .  "
+                         "foo foo foo foo foo foo foo foo foo foo foo foo"
+}
