@@ -66,8 +66,17 @@ a, a:hover {
     overflow: hidden;
 }
 
+.slider-container .visor .carrete {
+    display: flex;
+    height: 100%;
+    margin-left: 0;
+    width: 300%;
+    transition: 0.3s all ease;
+}
+
 .slider-container .visor .image-container {
     max-height: 100%;
+    width: 100%;
 }
 
 .slider-container .arrow {

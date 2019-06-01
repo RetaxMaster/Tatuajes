@@ -52,3 +52,7 @@ main section.form-container > form {
 .input-container select {
     width: 100%;
 }
+
+.button-container {
+    justify-content: center
+}
