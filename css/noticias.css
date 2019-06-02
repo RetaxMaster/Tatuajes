@@ -46,7 +46,7 @@ article.notice {
 }
 
 #articles article.notice .image-container img {
-    height: 160px !important;
+    height: 160px;
 }
 
 /* Publicidad */

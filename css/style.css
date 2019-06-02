@@ -27,6 +27,7 @@ footer {
 
 input, select, textarea {
     padding: 7px;
+    max-width: 100%;
 }
 
 textarea {

@@ -118,6 +118,22 @@
                              "foo foo foo foo foo foo foo foo foo foo foo foo"
     }
 
+    .noticias aside {
+        margin-top: 27px;
+    }
+
+    .noticias aside h2 {
+        font-size: 10px;
+    }
+
+    .noticias aside .container {
+        padding: 5px !important;
+    }
+
+    #articles article.notice .image-container img {
+        height: 20vw !important;
+    }
+
     #articles {
         grid-template-columns: 1fr !important;
     }
