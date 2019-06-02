@@ -23,7 +23,7 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(4, auto);
     grid-template-areas: "hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd "
-                         ".   .   mn  mn  mn  mn  mn  sld asd asd .   .  "
+                         ".   .   mn  mn  mn  mn  mn  .   asd asd .   .  "
                          ".   .   a11 a11 a11 a11 a12 a12 a12 a12 .   .  "
                          "foo foo foo foo foo foo foo foo foo foo foo foo"
 }

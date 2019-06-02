@@ -1,0 +1,174 @@
+@media (max-width: 1000px){
+    /* Visibilidades */
+    .visible-mobile {
+        display: block !important;
+    }
+
+    .hidden-mobile {
+        display: none;
+    }
+
+    /* Header */
+    header nav {
+        position: relative;
+    }
+
+    header nav .input-container {
+        padding: 10px;
+    }
+
+    header nav .input-container input {
+        background: #1a1a1a;
+        border: none;
+        font-size: 18px;
+    }
+
+    header nav .elements {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        flex-direction: column;
+        background: #000;
+        border: 1px solid #fff;
+        width: 70% !important;
+        display: none !important;
+    }
+    
+    header nav .elements>div,
+    header nav .elements>div>ul {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        text-align: left;
+        width: 100%;
+    }
+
+    header nav .elements>div>ul>li {
+        display: flex;
+        width: 100%;
+    }
+
+    header nav .elements>div a,
+    header nav .elements .icons {
+        padding: 10px 20px !important;
+    }
+
+    header nav .elements .icons {
+        display: flex !important;
+    }
+
+    header nav .elements .icons .force-resize img{
+        width: 50%;
+    }
+
+    header nav .elements .left ul li {
+        border-bottom: 1px solid #ccc;
+    }
+
+    /* Artículos */
+    article.notice span {
+        font-size: 15px !important;
+    }
+
+    /* Botones */
+    .button-container button {
+        font-size: 13px !important;
+    }
+
+    /* Sliders */
+
+    .slider-container .visor {
+        height: auto !important;
+        width: 95% !important;
+    }
+
+    /* Footer */
+    footer {
+        font-size: 20px !important;
+    }
+
+    /* Cambia el tamaño de la grid */
+
+    /* Index */
+    .slider-container .arrow {
+        padding: 8px 13px !important;
+        font-size: 22px !important;
+        margin: 0 3px !important;
+    }
+
+    .index {
+        grid-template-areas: "hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd "
+                            "sld sld sld sld sld sld sld sld sld sld sld sld"
+                            ".   hr1 hr1 hr1 hr1 hr1 hr1 hr1 hr1 hr1 hr1 .  "
+                            ".   a11 a11 a11 a11 a11 a12 a12 a12 a12 a12 .  "
+                            ".   a21 a21 a21 a21 a21 a22 a22 a22 a22 a22 .  "
+                            ".   a31 a31 a31 a31 a31 a32 a32 a32 a32 a32 .  "
+                            ".   a41 a41 a41 a41 a41 a42 a42 a42 a42 a42 .  "
+                            ".   sus sus sus sus sus sus sus sus sus sus .  "
+                            ".   a51 a51 a51 a51 a51 a52 a52 a52 a52 a52 .  "
+                            ".   hr2 hr2 hr2 hr2 hr2 hr2 hr2 hr2 hr2 hr2 .  "
+                            "pow pow pow pow pow pow pow pow pow pow pow pow"
+                            "foo foo foo foo foo foo foo foo foo foo foo foo"
+    }
+
+    /* Noticias */
+    .noticias {
+        grid-template-areas: "hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd "
+                             ".   mn  mn  mn  mn  mn  .   asd asd asd asd .  "
+                             ".   a11 a11 a11 a11 a11 a12 a12 a12 a12 a12 .  "
+                             "foo foo foo foo foo foo foo foo foo foo foo foo"
+    }
+
+    #articles {
+        grid-template-columns: 1fr !important;
+    }
+
+    /* Artistas (En dispositivos pequeños se quita el slider y se deja de arriba hacie abajo) */
+    .artistas .slider-container .visor .carrete {
+        flex-wrap: wrap;
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+
+    .artistas .slider-container .visor .carrete .image-container {
+        border-bottom: 1px solid #000;
+        margin-bottom: 20px;
+    }
+
+    .artistas .slider-container .arrow {
+        display: none !important;
+    }
+
+    /* Galeria */
+    .galeria {
+        grid-template-areas: "hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd "
+                            ".   gal gal gal gal gal gal gal gal gal gal .  "
+                            "sld sld sld sld sld sld sld sld sld sld sld sld"
+                            ".   hr1 hr1 hr1 hr1 hr1 hr1 hr1 hr1 hr1 hr1 .  "
+                            ".   a11 a11 a11 a11 a11 a12 a12 a12 a12 a12 .  "
+                            ".   a21 a21 a21 a21 a21 a22 a22 a22 a22 a22 .  "
+                            ".   a31 a31 a31 a31 a31 a32 a32 a32 a32 a32 .  "
+                            ".   a41 a41 a41 a41 a41 a42 a42 a42 a42 a42 .  "
+                            ".   a51 a51 a51 a51 a51 a52 a52 a52 a52 a52 .  "
+                            "foo foo foo foo foo foo foo foo foo foo foo foo"
+    }
+
+    /* Sobre Inked y Contacto */
+    .sobre,
+    .contacto {
+        grid-template-areas: "hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd "
+                            ".    mn  mn  mn  mn  mn  mn  mn  mn  mn  mn  .  "
+                            "foo foo foo foo foo foo foo foo foo foo foo foo"
+    }
+
+    .sobre main .container,
+    .contacto main .container {
+        flex-wrap: wrap;
+    }
+
+    .sobre main .container>section,
+    .contacto main .container>section {
+        width: 100% !important;
+    }
+
+
+}

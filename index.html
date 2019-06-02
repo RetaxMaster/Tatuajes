@@ -15,21 +15,53 @@
                     <img src="imagenes/CABECERA.jpg">
                 </div>
             </div>
+            <div class="visible-mobile page-name">
+                <h1><a href="index.html">INKED</a></h1>
+            </div>
             <nav>
-                <div class="left">
-                    <h1><a href="index.html">INKED</a></h1>
-                    <ul>
-                        <li><a href="noticias.html">NOTICIAS</a></li>
-                        <li><a href="artistas.html">ARTISTAS</a></li>
-                        <li><a href="galeria.html">GALERÍA</a></li>
-                    </ul>
+                <div class="visible-mobile" id="burger-menu">
+                    <div class="burger-menu-container">
+                        <img src="imagenes/icono-hamburguesa.png">
+                    </div>
                 </div>
-                <div class="right">
-                    <ul>
-                        <li><a href="sobre.html">SOBRE INKED</a></li>
-                        <li><a href="contacto.html">CONTACTO</a></li>
-                        <li><a href="#">REDES SOCIALES</a></li>
-                    </ul>
+                <div class="elements">
+                    <div class="left">
+                        <h1 class="hidden-mobile"><a href="index.html">INKED</a></h1>
+                        <ul>
+                            <li class="visible-mobile">
+                                <div class="input-container">
+                                    <input type="text" id="buscar" placeholder="Buscar">
+                                </div>
+                            </li>
+                            <li><a href="noticias.html">NOTICIAS</a></li>
+                            <li><a href="artistas.html">ARTISTAS</a></li>
+                            <li><a href="galeria.html">GALERÍA</a></li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <ul>
+                            <li><a href="sobre.html">SOBRE INKED</a></li>
+                            <li><a href="contacto.html">CONTACTO</a></li>
+                            <li><a href="#">REDES SOCIALES</a></li>
+                            <li class="visible-mobile icons">
+                                <div class="ico-container force-resize">
+                                    <img src="imagenes/facebook.png">
+                                </div>
+                                <div class="ico-container">
+                                    <img src="imagenes/instagram.png">
+                                </div>
+                                <div class="ico-container">
+                                    <img src="imagenes/twitter.png">
+                                </div>
+                                <div class="ico-container force-resize">
+                                    <img src="imagenes/pinterest.png">
+                                </div>
+                                <div class="ico-container">
+                                    <img src="imagenes/youtube.png">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </header>
@@ -161,5 +193,6 @@
         </footer>
     </div>
     <script src="js/slider.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
