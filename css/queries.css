@@ -115,6 +115,7 @@
         grid-template-areas: "hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd "
                              ".   mn  mn  mn  mn  mn  .   asd asd asd asd .  "
                              ".   a11 a11 a11 a11 a11 a12 a12 a12 a12 a12 .  "
+                             "pow pow pow pow pow pow pow pow pow pow pow pow"
                              "foo foo foo foo foo foo foo foo foo foo foo foo"
     }
 
@@ -165,6 +166,7 @@
                             ".   a31 a31 a31 a31 a31 a32 a32 a32 a32 a32 .  "
                             ".   a41 a41 a41 a41 a41 a42 a42 a42 a42 a42 .  "
                             ".   a51 a51 a51 a51 a51 a52 a52 a52 a52 a52 .  "
+                             "pow pow pow pow pow pow pow pow pow pow pow pow"
                             "foo foo foo foo foo foo foo foo foo foo foo foo"
     }
 
@@ -173,6 +175,7 @@
     .contacto {
         grid-template-areas: "hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd  hd "
                             ".    mn  mn  mn  mn  mn  mn  mn  mn  mn  mn  .  "
+                             "pow pow pow pow pow pow pow pow pow pow pow pow"
                             "foo foo foo foo foo foo foo foo foo foo foo foo"
     }
 
